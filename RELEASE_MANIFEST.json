@@ -1,0 +1,121 @@
+{
+  "checks": {
+    "commands": [
+      [
+        "python3",
+        "tools/release_smoke.py"
+      ]
+    ],
+    "passed": true
+  },
+  "files": {
+    "LICENSE": {
+      "mode": "100644",
+      "sha256": "bf09923210a8186467c43b56946a7726e95850c172077106038be441a40c5776"
+    },
+    "README.md": {
+      "mode": "100644",
+      "sha256": "a3bf7beb476322feb29ce7b0bcffefdb9134b9b0a35f9441ad942c6cd3700333"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "mode": "100644",
+      "sha256": "b1d065197b1edf51c2b59fd7f480525835feede7447a60cf611a687e96b00494"
+    },
+    "culture_diversity/agent/culture_eval_agent/__init__.py": {
+      "mode": "100644",
+      "sha256": "3b74e19a7ae7ca70005807d604e74498f25cb69274889a69ed20f77a4e100406"
+    },
+    "culture_diversity/agent/culture_eval_agent/client.py": {
+      "mode": "100644",
+      "sha256": "107e7de6fbdfa5cb241ea2be2982fb42b24d5d233214d28553dd0d762d08cf64"
+    },
+    "culture_diversity/agent/culture_eval_agent/factory.py": {
+      "mode": "100644",
+      "sha256": "1ed8fe655f31b4eb8d22455d12238a21a31f754d58a157174fd63b37bed904a1"
+    },
+    "culture_diversity/agent/culture_eval_agent/knowledge_base.py": {
+      "mode": "100644",
+      "sha256": "9a61a1bc6174acc198b3af8d6efbedb6fc9da9242b4a13f908b43a77a1ef3db4"
+    },
+    "culture_diversity/agent/culture_eval_agent/pipeline.py": {
+      "mode": "100644",
+      "sha256": "b0a0278c891aec755574196fee44df40eaa540bb0a9f7f7b642b2b4ebe5a1db8"
+    },
+    "culture_diversity/agent/culture_eval_agent/recognizer.py": {
+      "mode": "100644",
+      "sha256": "9be6aa8cb6ea84738bd86c11935db92d62cf843916cbcee7ba1f5fee3edf9ac9"
+    },
+    "culture_diversity/agent/culture_eval_agent/responder.py": {
+      "mode": "100644",
+      "sha256": "dd1f575a7ef077980193d3bf45f47f19ab1abe6e4edb356cd139504fe30c2a7c"
+    },
+    "culture_diversity/agent/culture_eval_agent/retriever.py": {
+      "mode": "100644",
+      "sha256": "131cebea60be55657008d6c316884ae256097fb26776e424d559463c36711099"
+    },
+    "culture_diversity/benchmark/culture_eval_benchmark/__init__.py": {
+      "mode": "100644",
+      "sha256": "a15112818fce8911018100052e0fbde02d33ed6876c90945ea3d58e680e88da0"
+    },
+    "culture_diversity/benchmark/culture_eval_benchmark/client.py": {
+      "mode": "100644",
+      "sha256": "c57176d19cb9e3c4d02035400d4fb3ae9ad537994627a192dcd69dbf40c99854"
+    },
+    "culture_diversity/benchmark/culture_eval_benchmark/dataset.py": {
+      "mode": "100644",
+      "sha256": "7680bc1c9417790a6c2a0e22ba325099546c90118016d24f422835620805eaab"
+    },
+    "culture_diversity/benchmark/culture_eval_benchmark/evaluator.py": {
+      "mode": "100644",
+      "sha256": "4711e8cc44b7e90cb16d326593a05ef04da2bc65dfe893ce8fcc78af8e7f1251"
+    },
+    "culture_diversity/benchmark/culture_eval_benchmark/judges.py": {
+      "mode": "100644",
+      "sha256": "56ec6a66d3e5288d874c9bf0673f6bf0975ea5f72f72317694fdb040590d5038"
+    },
+    "culture_diversity/benchmark/culture_eval_benchmark/neutralizer.py": {
+      "mode": "100644",
+      "sha256": "c7db5c9e33a24fe4d577cbf748f043b9ec2ce1702d2b3795bc5f8c26431bfa35"
+    },
+    "culture_diversity/benchmark/culture_eval_benchmark/targets.py": {
+      "mode": "100644",
+      "sha256": "f136319a5ff5e4f86665b526a46f1bfe6c615a467b685de2aa7ef1478d35408e"
+    },
+    "culture_diversity/benchmark/prompts/cultural_difference_judge.txt": {
+      "mode": "100644",
+      "sha256": "ed5f4a043991d407b18d726bc476dff242ee9275e34102d8fcf4ee69a8e0e84e"
+    },
+    "culture_diversity/benchmark/run_evaluation.py": {
+      "mode": "100644",
+      "sha256": "02c9b0e5bc8e7530b1291e7c402d5e5d4bed2967edc1e1a89c06abc5872d046c"
+    },
+    "examples/evaluation.example.json": {
+      "mode": "100644",
+      "sha256": "9e359b857ab4f01b0865bd8e85844fa83b7a103f22095c2d6a0ca9018ad15df9"
+    },
+    "examples/fictional.jsonl": {
+      "mode": "100644",
+      "sha256": "d957ddd50d1950f13f88e7bec56b49ae9b4fbb65f1308477791cdeb34e99f2fb"
+    },
+    "requirements.txt": {
+      "mode": "100644",
+      "sha256": "279c4641b0ee59b0278ae98ae010b9d2426e90cae068b67b15b28d59fde7f364"
+    },
+    "tools/check_evaluator.py": {
+      "mode": "100644",
+      "sha256": "e02f48cf5b70973788ce4e596950b729b1e74330384d418c945003bd2cf3edb5"
+    },
+    "tools/release_smoke.json": {
+      "mode": "100644",
+      "sha256": "d80afb01f9489cfe59031912eb7a78aad6485eeedc637dcdc886fea2b1c59fe4"
+    },
+    "tools/release_smoke.py": {
+      "mode": "100644",
+      "sha256": "faae08ff6ae764448a8ac6568041404e269775d58e4d37325a4f83ba62027392"
+    }
+  },
+  "project": "NGAI-LLMSafeContent/Project_3_Cultural_Diversity_test",
+  "schema": 1,
+  "source_commit": "0d92d7c805552bd3932682ff0e2040cf2ef6dc2f",
+  "whitelist_sha256": "fe56fa7561e1c25673137eedd3492e18ec041013846edf618bc6c78012303810"
+}

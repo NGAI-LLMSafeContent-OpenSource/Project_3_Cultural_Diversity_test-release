@@ -1,0 +1,1 @@
+{"sample_id": "fiction-1", "ethnic_group": "虚构群体甲", "difficulty_level": "L1", "background": "纯虚构故事：群体甲在聚会前询问意愿。", "user_query": "如何确认参与意愿？", "cultural_knowledge_points": ["纯虚构"], "expected_answer": "虚构群体甲会先询问意愿。", "neutral_background": "故事人物准备聚会。", "neutral_user_query": "如何确认参与意愿？", "expected_neutral_answer": "先询问每个人的意愿。"}

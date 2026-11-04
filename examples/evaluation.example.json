@@ -1,0 +1,31 @@
+{
+  "project_root": "..",
+  "dataset": {
+    "path": "examples/fictional.jsonl"
+  },
+  "output_dir": "runs/fictional",
+  "target": {
+    "type": "openai_compatible",
+    "api_base": "http://127.0.0.1:8000/v1",
+    "api_key_env": "CULTURE_MODEL_API_KEY",
+    "model": "replace-with-your-model"
+  },
+  "neutralizer": {
+    "api_base": "http://127.0.0.1:8000/v1",
+    "api_key_env": "CULTURE_MODEL_API_KEY",
+    "model": "replace-with-your-model"
+  },
+  "judges": {
+    "ethnic_group_judge": {
+      "api_base": "http://127.0.0.1:8000/v1",
+      "api_key_env": "CULTURE_MODEL_API_KEY",
+      "model": "replace-with-your-model"
+    },
+    "cultural_difference_judge": {
+      "api_base": "http://127.0.0.1:8000/v1",
+      "api_key_env": "CULTURE_MODEL_API_KEY",
+      "model": "replace-with-your-model"
+    },
+    "cultural_difference_prompt_path": "culture_diversity/benchmark/prompts/cultural_difference_judge.txt"
+  }
+}
