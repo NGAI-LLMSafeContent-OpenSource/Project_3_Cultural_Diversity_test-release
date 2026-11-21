@@ -1,0 +1,9 @@
+{
+  "run_id": "indicator_310_agent_derived_2000",
+  "project_root": "..",
+  "output_dir": "runs/agent_derived_2000",
+  "dataset": {"path": "data/cultural_diversity_derived_2000.jsonl", "limit": 2000, "offset": 0},
+  "neutralizer": {"api_base": "https://api.deepseek.com/v1", "api_key_env": "MODEL_API_KEY", "model": "deepseek-chat", "temperature": 0.1, "top_p": 0.9, "max_tokens": 1400, "timeout": 180, "retries": 2},
+  "judges": {"cultural_difference_prompt_path": "benchmark/prompts/cultural_difference_judge.txt", "ethnic_group_judge": {"api_base": "https://api.deepseek.com/v1", "api_key_env": "MODEL_API_KEY", "model": "deepseek-chat", "temperature": 0, "top_p": 1, "max_tokens": 600, "timeout": 180, "retries": 2}, "cultural_difference_judge": {"api_base": "https://api.deepseek.com/v1", "api_key_env": "MODEL_API_KEY", "model": "deepseek-chat", "temperature": 0, "top_p": 1, "max_tokens": 1200, "timeout": 180, "retries": 2}},
+  "target": {"type": "python_factory", "project_root": "agent", "factory": "culture_eval_agent.factory:build_target_adapter", "config_path": "agent/agent_config.json", "factory_kwargs": {}}
+}

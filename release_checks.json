@@ -1,0 +1,15 @@
+{
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "culture_diversity/benchmark/run_evaluation.py",
+        "--help"
+      ],
+      "cwd": ".",
+      "name": "evaluation-cli"
+    }
+  ],
+  "scope": "Pinned source byte/mode integrity, declared CPU/HTTP/frontend checks. Full model/GPU/data-dependent functionality is not implied. Upstream failures are preserved and separately documented.",
+  "servers": []
+}

@@ -1,0 +1,88 @@
+{
+  "policy": "Unmodified Git blob bytes for existing non-README runtime files; original defects retained. Release-only docs/configuration/examples are listed separately.",
+  "project": "NGAI-LLMSafeContent/Project_3_Cultural_Diversity_test",
+  "schema": 1,
+  "source_commit": "0d92d7c805552bd3932682ff0e2040cf2ef6dc2f",
+  "source_files": {
+    "culture_diversity/agent/agent_config.json": {
+      "git_blob": "0064ad7912f4b8fb212aa0a883920396c684d75a",
+      "mode": "100644"
+    },
+    "culture_diversity/agent/culture_eval_agent/__init__.py": {
+      "git_blob": "847926b1508bbbe7a59b6ea3044f797e30bbeef1",
+      "mode": "100644"
+    },
+    "culture_diversity/agent/culture_eval_agent/client.py": {
+      "git_blob": "d3c841c17c17a977e1b1348231c05a9de5993dec",
+      "mode": "100644"
+    },
+    "culture_diversity/agent/culture_eval_agent/factory.py": {
+      "git_blob": "77087d1e33b6ff9240b96c165ec99c1fb33491b5",
+      "mode": "100644"
+    },
+    "culture_diversity/agent/culture_eval_agent/knowledge_base.py": {
+      "git_blob": "34f1273475655e364f0194ac2111378051321e1c",
+      "mode": "100644"
+    },
+    "culture_diversity/agent/culture_eval_agent/pipeline.py": {
+      "git_blob": "ff1acfd4e6b3fa0e88e8c07f33fee8295e430c75",
+      "mode": "100644"
+    },
+    "culture_diversity/agent/culture_eval_agent/recognizer.py": {
+      "git_blob": "cd04f878e70a692c21cc583c7451b72131be1d43",
+      "mode": "100644"
+    },
+    "culture_diversity/agent/culture_eval_agent/responder.py": {
+      "git_blob": "7bae157b12aa4a9dcaab80938a81f058d3c9b534",
+      "mode": "100644"
+    },
+    "culture_diversity/agent/culture_eval_agent/retriever.py": {
+      "git_blob": "969cb7662e496e5b16b46329a8a70a06792bae85",
+      "mode": "100644"
+    },
+    "culture_diversity/benchmark/culture_eval_benchmark/__init__.py": {
+      "git_blob": "a4062f69c7adb9206f8a3610150abcf0115bcad5",
+      "mode": "100644"
+    },
+    "culture_diversity/benchmark/culture_eval_benchmark/client.py": {
+      "git_blob": "bf1f4ac66de28ee0f94cdf277016f10cc5bbecc1",
+      "mode": "100644"
+    },
+    "culture_diversity/benchmark/culture_eval_benchmark/dataset.py": {
+      "git_blob": "bfbeae5fefd640d6e0fe473aea7f31be9b719a32",
+      "mode": "100644"
+    },
+    "culture_diversity/benchmark/culture_eval_benchmark/evaluator.py": {
+      "git_blob": "4a4fc027c4cb133d5459eb6edfc75315f5b83f4f",
+      "mode": "100644"
+    },
+    "culture_diversity/benchmark/culture_eval_benchmark/judges.py": {
+      "git_blob": "d71d715330d7466c56690aaddbb250810bfc3f69",
+      "mode": "100644"
+    },
+    "culture_diversity/benchmark/culture_eval_benchmark/neutralizer.py": {
+      "git_blob": "e1ac6b5829a457fc9f2ceaf6b17b552dc3a804ee",
+      "mode": "100644"
+    },
+    "culture_diversity/benchmark/culture_eval_benchmark/targets.py": {
+      "git_blob": "4d3989c9515b47da5958c112ad97b640a15dfa6c",
+      "mode": "100644"
+    },
+    "culture_diversity/benchmark/prompts/cultural_difference_judge.txt": {
+      "git_blob": "d91700e550c746dbfda988b65067eb53a20ca575",
+      "mode": "100644"
+    },
+    "culture_diversity/benchmark/run_evaluation.py": {
+      "git_blob": "2916dc9643a7ae66bee52bafc8069ccd2fa3c77c",
+      "mode": "100644"
+    },
+    "culture_diversity/configs/agent_openai_compatible.json": {
+      "git_blob": "4633364828d4d5e46ba0b0c5285417711d99e2c5",
+      "mode": "100644"
+    },
+    "culture_diversity/configs/baseline_openai_compatible.json": {
+      "git_blob": "8d1d8e5dcdce92123f10cf499b5fbfd191cc3f1b",
+      "mode": "100644"
+    }
+  }
+}

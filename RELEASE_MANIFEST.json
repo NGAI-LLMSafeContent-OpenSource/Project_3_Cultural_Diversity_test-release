@@ -2,24 +2,41 @@
   "checks": {
     "commands": [
       [
-        "python3",
-        "tools/release_smoke.py"
+        "/data/fzk/env/published-runtime-audit/Project_3_Cultural_Diversity_test/bin/python",
+        "-B",
+        "tools/release_check.py"
       ]
     ],
     "passed": true
   },
   "files": {
+    "KNOWN_ISSUES.md": {
+      "mode": "100644",
+      "sha256": "9b83378d72df66727548ac016ccaf3fb419b957b6149e2a5d554faa8c9bdfe66"
+    },
     "LICENSE": {
       "mode": "100644",
       "sha256": "bf09923210a8186467c43b56946a7726e95850c172077106038be441a40c5776"
     },
     "README.md": {
       "mode": "100644",
-      "sha256": "a3bf7beb476322feb29ce7b0bcffefdb9134b9b0a35f9441ad942c6cd3700333"
+      "sha256": "02454ba9b0bac93c3bab9f3de296718759d2a659c3ee41b5d9ebb90c6e8c343a"
+    },
+    "RELEASE_FILES.md": {
+      "mode": "100644",
+      "sha256": "693167aa9e6cb2118bb31fb6b360053571974938215f5314aee4db6adbcd70d5"
+    },
+    "SOURCE_ALIGNMENT.json": {
+      "mode": "100644",
+      "sha256": "f9affc86bbd7d933ba3bc58bbc8483f5f61921d530c339306ec842e8da524221"
     },
     "THIRD_PARTY_NOTICES.md": {
       "mode": "100644",
-      "sha256": "b1d065197b1edf51c2b59fd7f480525835feede7447a60cf611a687e96b00494"
+      "sha256": "e1ad733b3347bbf1c134f8868f4a9f754e2742c0254db58f286a827402de92e2"
+    },
+    "culture_diversity/agent/agent_config.json": {
+      "mode": "100644",
+      "sha256": "08285ffd76718d571f5dedfd5dbdfbb80fecac64ab55ab622d56958931ce33a5"
     },
     "culture_diversity/agent/culture_eval_agent/__init__.py": {
       "mode": "100644",
@@ -89,6 +106,14 @@
       "mode": "100644",
       "sha256": "02c9b0e5bc8e7530b1291e7c402d5e5d4bed2967edc1e1a89c06abc5872d046c"
     },
+    "culture_diversity/configs/agent_openai_compatible.json": {
+      "mode": "100644",
+      "sha256": "dfad88ae21b1b8e3cb8727514df81f3b6ceabe342e83253274f99ee75fad79ff"
+    },
+    "culture_diversity/configs/baseline_openai_compatible.json": {
+      "mode": "100644",
+      "sha256": "7a0133344d3d3180ef17abd4e9f8b9be7dcc246da710bc1ad963ffef5f5423fc"
+    },
     "examples/evaluation.example.json": {
       "mode": "100644",
       "sha256": "9e359b857ab4f01b0865bd8e85844fa83b7a103f22095c2d6a0ca9018ad15df9"
@@ -97,25 +122,21 @@
       "mode": "100644",
       "sha256": "d957ddd50d1950f13f88e7bec56b49ae9b4fbb65f1308477791cdeb34e99f2fb"
     },
+    "release_checks.json": {
+      "mode": "100644",
+      "sha256": "f51ba554d07aaeae6af3cda8ecde9406ce44541d259f620ccbb6035ac352488a"
+    },
     "requirements.txt": {
       "mode": "100644",
       "sha256": "279c4641b0ee59b0278ae98ae010b9d2426e90cae068b67b15b28d59fde7f364"
     },
-    "tools/check_evaluator.py": {
+    "tools/release_check.py": {
       "mode": "100644",
-      "sha256": "e02f48cf5b70973788ce4e596950b729b1e74330384d418c945003bd2cf3edb5"
-    },
-    "tools/release_smoke.json": {
-      "mode": "100644",
-      "sha256": "d80afb01f9489cfe59031912eb7a78aad6485eeedc637dcdc886fea2b1c59fe4"
-    },
-    "tools/release_smoke.py": {
-      "mode": "100644",
-      "sha256": "faae08ff6ae764448a8ac6568041404e269775d58e4d37325a4f83ba62027392"
+      "sha256": "6b370aab6b096a1df48e44995198d6d46c0e54ac5f7cf371a327b8670264f5f0"
     }
   },
   "project": "NGAI-LLMSafeContent/Project_3_Cultural_Diversity_test",
   "schema": 1,
   "source_commit": "0d92d7c805552bd3932682ff0e2040cf2ef6dc2f",
-  "whitelist_sha256": "fe56fa7561e1c25673137eedd3492e18ec041013846edf618bc6c78012303810"
+  "whitelist_sha256": "2645cac45391a804cbd25b2512ef2121f016bbc8f5d2e7f5612926a28f9a40f0"
 }
